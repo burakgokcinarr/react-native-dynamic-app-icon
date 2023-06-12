@@ -14,6 +14,10 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-dynamicappicon-dynamicappiconTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-dynamicappicon-dynamicappiconTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9E363C592A37384000742E81 /* logo_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E363C572A37384000742E81 /* logo_1@3x.png */; };
+		9E363C5A2A37384000742E81 /* logo_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E363C582A37384000742E81 /* logo_1@2x.png */; };
+		9E363C5D2A37384C00742E81 /* logo_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E363C5B2A37384C00742E81 /* logo_2@2x.png */; };
+		9E363C5E2A37384C00742E81 /* logo_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E363C5C2A37384C00742E81 /* logo_2@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +47,10 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-dynamicappicon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dynamicappicon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = dynamicappicon/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-dynamicappicon-dynamicappiconTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dynamicappicon-dynamicappiconTests.release.xcconfig"; path = "Target Support Files/Pods-dynamicappicon-dynamicappiconTests/Pods-dynamicappicon-dynamicappiconTests.release.xcconfig"; sourceTree = "<group>"; };
+		9E363C572A37384000742E81 /* logo_1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_1@3x.png"; sourceTree = "<group>"; };
+		9E363C582A37384000742E81 /* logo_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_1@2x.png"; sourceTree = "<group>"; };
+		9E363C5B2A37384C00742E81 /* logo_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_2@2x.png"; sourceTree = "<group>"; };
+		9E363C5C2A37384C00742E81 /* logo_2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_2@3x.png"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -86,6 +94,7 @@
 		13B07FAE1A68108700A75B9A /* dynamicappicon */ = {
 			isa = PBXGroup;
 			children = (
+				9E363C562A37382600742E81 /* AppIcons */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -135,6 +144,17 @@
 				00E356EE1AD99517003FC87E /* dynamicappiconTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9E363C562A37382600742E81 /* AppIcons */ = {
+			isa = PBXGroup;
+			children = (
+				9E363C5B2A37384C00742E81 /* logo_2@2x.png */,
+				9E363C5C2A37384C00742E81 /* logo_2@3x.png */,
+				9E363C582A37384000742E81 /* logo_1@2x.png */,
+				9E363C572A37384000742E81 /* logo_1@3x.png */,
+			);
+			name = AppIcons;
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -242,8 +262,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E363C592A37384000742E81 /* logo_1@3x.png in Resources */,
+				9E363C5D2A37384C00742E81 /* logo_2@2x.png in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				9E363C5E2A37384C00742E81 /* logo_2@3x.png in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				9E363C5A2A37384000742E81 /* logo_1@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
