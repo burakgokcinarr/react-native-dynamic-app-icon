@@ -34,7 +34,7 @@ Gerekli paketleri yükleyin
 ```
 
 iOS Info.plist (Genel Görünüm)
-![]( | width=100)
+<img src='https://github.com/burakgokcinarr/react-native-dynamic-app-icon/blob/main/info.png?raw=true'>
 
 Cihazlarda çalıştırın ( iOS Simulatör)
 
@@ -45,4 +45,4 @@ Cihazlarda çalıştırın ( iOS Simulatör)
 Detaylı bilgi için https://github.com/skb1129/react-native-change-icon 
   
 ## Ekran Görüntüleri
-<img src="https://github.com/burakgokcinarr/radio-track-player/blob/main/app.gif" alt="gif" width="350" height="650">
+<img src="https://github.com/burakgokcinarr/react-native-dynamic-app-icon/blob/main/app.gif" alt="gif" width="350" height="650">
